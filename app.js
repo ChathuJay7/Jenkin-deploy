@@ -14,4 +14,10 @@ app.get('/home', (req,res) => {
     })
 })
 
+app.get('/dashboard', (req,res) => {
+    res.json({
+        message: "Welcome to dahsboard...!"
+    })
+})
+
 app.listen(3000)
