@@ -16,7 +16,7 @@ app.get('/home', (req,res) => {
 
 app.get('/dashboard', (req,res) => {
     res.json({
-        message: "Welcome to dahsboard...!"
+        message: "Welcome to dahsboard"
     })
 })
 
