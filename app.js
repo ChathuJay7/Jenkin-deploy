@@ -4,13 +4,13 @@ const app = express()
 
 app.get('/', (req,res) => {
     res.json({
-        message: "Hello Backend..!"
+        message: "Hello Backend Update..!"
     })
 })
 
 app.get('/home', (req,res) => {
     res.json({
-        message: "Hello to Home...!"
+        message: "Hello To Home Update...!"
     })
 })
 
